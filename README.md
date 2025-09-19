@@ -8,34 +8,22 @@ Static-exportable Next.js 14 project prepared for deployment to GitHub Pages.
 - Tailwind CSS 4
 - Radix UI primitives + custom components
 
-## Run Locally (Without pnpm)
-You can use npm or yarn if you prefer not to install pnpm.
-
+## Run Locally
 ### 1. Install dependencies
 ```bash
-# npm
 npm install
-
-# OR yarn
-yarn install
 ```
 
 ### 2. Start development server
 ```bash
-# npm
 npm run dev
-# yarn
-yarn dev
 ```
 Visit: http://localhost:3000
 
 ### 3. Build & static export
 The `build` script performs `next build && next export` producing a static site.
 ```bash
-# npm
 npm run build
-# yarn
-yarn build
 ```
 Output folder: `out/`
 
